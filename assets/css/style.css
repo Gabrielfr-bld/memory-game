@@ -62,3 +62,8 @@ header h1 img {
   transform-style: preserve-3d;
   transition: transform 0.9s;
 }
+
+.card:active {
+  transform: scale(0.97);
+  transition: transform 0.3s;
+}
