@@ -37,6 +37,11 @@ header h1 {
   color: rgb(29, 26, 26);
 }
 
+header h1 img {
+  width: 30%;
+  padding-bottom: 50px;
+}
+
 .memory-game {
   height: 640px;
   width: 640px;
