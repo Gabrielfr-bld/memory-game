@@ -23,3 +23,15 @@ body {
   flex-wrap: wrap;
   perspective: 1000px;
 }
+
+.card {
+  height: calc(33.333% - 10px);
+  width: calc(25% - 10px);
+  margin: 5px;
+  position: relative;
+  box-shadow: 1px 1px 1px  rgb(240, 234, 234);
+  cursor: pointer;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.9s;
+}
