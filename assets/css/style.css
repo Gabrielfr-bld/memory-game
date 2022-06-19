@@ -15,6 +15,17 @@ body {
   background-color: rgb(29, 26, 26);
 }
 
+header {
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
 .memory-game {
   height: 640px;
   width: 640px;
