@@ -29,7 +29,11 @@ header {
 
 header h1 {
   font-family: 'Harry Potter';
-  font-size: 50px;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   color: rgb(29, 26, 26);
 }
 
