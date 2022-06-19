@@ -14,3 +14,12 @@ body {
   display: flex;
   background-color: rgb(29, 26, 26);
 }
+
+.memory-game {
+  height: 640px;
+  width: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
