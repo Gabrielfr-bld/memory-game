@@ -19,3 +19,5 @@ function flipCard() {
   hasFlippedCard = false;
   checkForMatch();
 }
+
+cards.forEach(card => card.addEventListener('click', flipCard));
