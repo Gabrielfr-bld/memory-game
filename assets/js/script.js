@@ -46,4 +46,10 @@ function flipCard() {
       resetBoard();
     }, 1000);
   }
+
+  function resetBoard() { 
+    [hasFlippedCard, lockBoard] = [false, false];
+    [firstCard, secondCard] = [null, null];
+  }
+
 cards.forEach(card => card.addEventListener('click', flipCard));
