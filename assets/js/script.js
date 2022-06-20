@@ -20,4 +20,13 @@ function flipCard() {
   checkForMatch();
 }
 
+  function checkForMatch() {
+    if(firstCard.dataset.card === secondCard.dataset.card) {
+      disableCards();
+      return;
+    }
+
+    unflipCards();
+  }
+
 cards.forEach(card => card.addEventListener('click', flipCard));
