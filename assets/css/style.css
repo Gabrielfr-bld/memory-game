@@ -78,3 +78,7 @@ header h1 img {
   background: #fff; 
   backface-visibility: hidden;
 }
+
+.card-front {
+  transform: rotateY(180deg);
+}
