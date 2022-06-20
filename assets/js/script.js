@@ -29,4 +29,10 @@ function flipCard() {
     unflipCards();
   }
 
+  function disableCards() { 
+    firstCard.removeEventListener('click', flipCard);
+    secondCard.removeEventListener('click', flipCard);
+    
+    resetBoard();
+  }
 cards.forEach(card => card.addEventListener('click', flipCard));
