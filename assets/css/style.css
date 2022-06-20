@@ -82,3 +82,7 @@ header h1 img {
 .card-front {
   transform: rotateY(180deg);
 }
+
+.card.flip {
+  transform: rotateY(180deg);
+}
