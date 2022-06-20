@@ -9,4 +9,4 @@
   - Javascript
 
 ## Status
- - Em desenvolvimento
+ - Concluído
