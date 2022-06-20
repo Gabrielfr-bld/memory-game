@@ -35,4 +35,15 @@ function flipCard() {
     
     resetBoard();
   }
+
+  function unflipCards() { 
+    lockBoard = true;
+    
+    setTimeout(() => {
+      firstCard.classList.remove('flip');
+      secondCard.classList.remove('flip');
+      
+      resetBoard();
+    }, 1000);
+  }
 cards.forEach(card => card.addEventListener('click', flipCard));
